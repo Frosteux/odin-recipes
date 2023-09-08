@@ -2,20 +2,28 @@
     box-sizing: border-box;
     font-family: 'Bebas Neue', 'Times New Roman', Times, serif;
     background-color: rgb(206, 190, 236);
-    margin: auto;
 }
 
 .listentry {
-    
+    display: inline-block;
+    text-align: center;
 }
 
 .banner {
     text-align: center;
     font-size: 50px;
-
+    font-weight: 100;
+    border-bottom: .25rem solid rgb(86, 0, 107);
 }
 
 .listcontainer {
-    border-top: .25rem solid;
-    padding: 20px;
+    text-align: center;
+    margin: 15px;
+}
+
+.recipecontainer {
+    border: .25rem solid;
+    border-color: rgb(86, 0, 107);
+    margin: 10px;
+    padding: 5px 5px;
 }
