@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', 'Times New Roman', Times, serif;
+    background-color: rgb(206, 190, 236);
+    margin: auto;
+}
+
+.listentry {
+    
+}
+
+.banner {
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.listcontainer {
+    border-top: .25rem solid;
+    padding: 20px;
+}
