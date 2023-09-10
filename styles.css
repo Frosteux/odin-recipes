@@ -1,29 +1,58 @@
 * {
     box-sizing: border-box;
+    display;
     font-family: 'Bebas Neue', 'Times New Roman', Times, serif;
-    background-color: rgb(206, 190, 236);
+    color:white;
 }
 
-.listentry {
+.list-container {
+    text-align: center;
+}
+.list-separator {
+    font-size: 40px;
+    margin-right: 50px;
     display: inline-block;
+}
+
+.index-banner {
+    font-size: 300px;
+    height: 280px;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 50px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+html {
+    background-image: url(./img/webb-dark.png);
+}
+
+.sponsor {
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sub-banner {
+    font-size: 100px;
+    height: 120px;
+}
+
+.description {
+    display: inline-block;
+    font-size: 30px;
+    width: 500px;
+    height: 295px;
     text-align: center;
 }
 
-.banner {
-    text-align: center;
-    font-size: 50px;
-    font-weight: 100;
-    border-bottom: .25rem solid rgb(86, 0, 107);
+.img {
+    width: 280px;
+    display: inline-block;
 }
 
-.listcontainer {
-    text-align: center;
-    margin: 15px;
-}
-
-.recipecontainer {
-    border: .25rem solid;
-    border-color: rgb(86, 0, 107);
-    margin: 10px;
-    padding: 5px 5px;
+.ingredients-list {
+    font-size: 30px;
 }
