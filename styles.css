@@ -41,15 +41,13 @@ html {
 }
 
 .description {
-    display: inline-block;
     font-size: 30px;
     width: 500px;
     height: 295px;
     text-align: center;
 }
 
-.img {
-    width: 280px;
+.recipe-img {
     display: inline-block;
 }
 
